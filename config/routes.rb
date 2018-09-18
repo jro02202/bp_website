@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'shops/pwd'
+
+  get 'shops/business'
+
   get 'hello/world'
 
   get 'info/school_cal'
