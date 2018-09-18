@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'demo/yo'
+
   get 'shops/pwd'
 
   get 'shops/business'
