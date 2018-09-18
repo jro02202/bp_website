@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'hello/world'
+
   get 'info/school_cal'
 
   get 'info/school_com'
