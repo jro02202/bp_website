@@ -1,0 +1,2 @@
+module CareerAreasHelper
+end
