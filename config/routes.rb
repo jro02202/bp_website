@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
-=======
+  resources :announcements
   get 'demo/yo'
 
->>>>>>> 1e6b8f82919b449bc96d5682f20fd9e37bba19e1
+  get 'demo/yo'
+
   get 'shops/pwd'
 
   get 'shops/business'
