@@ -1,5 +1,5 @@
 class JalenController < ApplicationController
   def home
-	@var = "ya motha"
+	@var = "baypath site"
   end
 end
