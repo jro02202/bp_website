@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'jalen/home'
+
   get 'steele/home'
 
   resources :announcements
