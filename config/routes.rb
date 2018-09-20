@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'steele/home'
+
   resources :announcements
   get 'demo/yo'
 
